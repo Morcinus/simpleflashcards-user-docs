@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simple Flashcards - uřivatelské dokumentace</title>
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- FontAwesome JS -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
+      integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css" />
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css" />
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+
+  <body class="body-blue">
+    <!-- GITHUB BUTTON JS -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <div class="page-wrapper">
+      <!-- ******Header****** -->
+      <header id="header" class="header">
+        <div class="container">
+          <div class="branding">
+            <h1 class="logo">
+              <span aria-hidden="true" class="icon_documents_alt icon"></span>
+              <span class="text-highlight">Simple Flashcards</span><br /><span class="text-bold">Uživatelská dokumentace</span>
+            </h1>
+          </div>
+          <!--//branding-->
+
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Domů</a></li>
+            <li class="breadcrumb-item active">Balíčky</li>
+          </ol>
+
+          <div class="top-search-box">
+            <div>
+              <div class="mb-2">
+                <button type="button" class="btn btn-secondary">
+                  <a href="https://morcinus.github.io/simpleflashcards-client-docs/" target="_blank" style="color:inherit"> Vývojářská dokumentace </a>
+                </button>
+                <button type="button" class="btn btn-secondary">
+                  <a href="https://simpleflashcards-4aea0.firebaseapp.com/" target="_blank" style="color:inherit"> Simple Flashcards </a>
+                </button>
+                <button type="button" class="btn btn-secondary">
+                  <a href="https://github.com/Morcinus/SimpleFlashCards/" target="_blank" style="color:inherit"><i class="fab fa-github"></i> GitHub </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--//container-->
+      </header>
+      <!--//header-->
+      <div class="doc-wrapper">
+        <div class="container">
+          <div id="doc-header" class="doc-header text-center">
+            <h1 class="doc-title"><i class="icon fa fa-clone"></i> Balíčky</h1>
+            <div class="meta"><i class="far fa-clock"></i> Naposledy upraveno: 28.02.2020</div>
+          </div>
+          <!--//doc-header-->
+          <div class="doc-body row">
+            <div class="doc-content col-md-9 col-12 order-1">
+              <div class="content-inner">
+                <section id="section-co-jsou-balicky" class="doc-section">
+                  <h2 class="section-title">Co to jsou balíčky</h2>
+                  <div class="section-block">
+                    <p>
+                      Balíčky jsou skupiny karet. Každý balíček má svou stránku, na které je možné karty prohlížet a učit se je. Také je zde možné balíček
+                      sdílet, připínat apod. Každý uživatel může <a href="vytvareni.html"> vytvářet své vlastní balíčky</a>.
+                    </p>
+                  </div>
+                </section>
+                <!--//doc-section-->
+
+                <section id="section-prehled-balicku" class="doc-section">
+                  <h2 class="section-title">Přehled balíčků</h2>
+                  <div class="section-block">
+                    <p>
+                      Po přihlášení do aplikace můžete na domovské stránce vidět přehled balíčků. V sekci "My Decks" můžete najít všechny Vámi vytvořené
+                      balíčky. Kliknutím na balíček se přesunete na stánku daného balíčku. V sekci "Pinned Decks" můžete vidět všechny balíčky, které jste
+                      připnuli. Opět se kliknutím na balíček přesunete na jeho stránku.
+                    </p>
+                  </div>
+                </section>
+                <!--//doc-section-->
+
+                <section id="section-stranka-balicku" class="doc-section">
+                  <h2 class="section-title">Stánka balíčku</h2>
+                  <div class="section-block">
+                    <p>
+                      Každý balíček má vlastní stránku, kde se nacházejí veškeré informace o balíčku.
+                    </p>
+                  </div>
+
+                  <div id="section-block-uceni-balicku" class="section-block">
+                    <h3 class="block-title">Učení se balíčku</h3>
+                    <p>
+                      Na pravé straně obrazovky zde můžete vidět sekci pro učení se balíčku. Jsou zde na výběr 3 módy učení, které můžete spustit kliknutím na
+                      daná tlačítka.
+                    </p>
+                  </div>
+
+                  <div id="section-block-seznam-karet-balicku" class="section-block">
+                    <h3 class="block-title">Seznam karet balíčku</h3>
+                    <p>
+                      Na pravé straně obrazovky můžete v horních záložkách přepnout stránku do sekce "Cards". V této sekci jsou zobrazeny všechny karty daného
+                      balíčku. Můžete je zde libovolně otáčet. K hromadnému otočení karet můžete používat tlačítko v levém horním rohu s ikonou otočení.
+                    </p>
+                  </div>
+
+                  <div id="section-block-informace-o-balicku" class="section-block">
+                    <h3 class="block-title">Informace o balíčku</h3>
+                    <p>
+                      Na levé straně stránky můžete vidět veškeré informace o balíčku. Pod obrázkem balíčku můžete vidět název balíčku a hned pod ním popis
+                      balíčku. Pod popisem dále vedle nápisu "Created by: " můžete vidět uživatelské jméno autora balíčku. Kliknutím na toto jméno se přesunete
+                      na uživatelský profil autora.
+                    </p>
+                  </div>
+
+                  <div id="section-block-pripinani-balicku" class="section-block">
+                    <h3 class="block-title">Připínání balíčku</h3>
+                    <p>
+                      Pokud narazíte na balíček někoho jiného a chcete si na něj uložit odkaz, můžete si balíček připnout. Připnuté balíčky pak uvidíte na
+                      domovské stránce v sekci "Pinned Decks". Pro připnutí balíčku stačí kliknout na tlačítko "Pin". Pokud chcete balíček opět odepnout, stačí
+                      kliknout na tlačítko "Unpin".
+                    </p>
+                  </div>
+
+                  <div id="section-block-sdileni-balicku" class="section-block">
+                    <h3 class="block-title">Sdílení balíčku</h3>
+                    <p>
+                      Balíčky můžete sdílet pomocí odkazu. Klikněte na tlačítko "Share". Poté můžete z textového pole zkopírovat odkaz, nebo kliknout na
+                      tlačítko "Copy Link" a odkaz se Vám zkopíruje.
+                    </p>
+                  </div>
+
+                  <div id="section-block-upravovani-balicku" class="section-block">
+                    <h3 class="block-title">Upravování balíčku</h3>
+                    <p>
+                      Pokud je balíček Váš, můžete ho upravit kliknutím na tlačítko "Edit Deck". To vás přesune na stránku, kde můžete balíček upravovat.
+                    </p>
+                  </div>
+
+                  <div id="section-block-pridavani-balicku" class="section-block">
+                    <h3 class="block-title">Přidávání balíčků do kolekce</h3>
+                    <p>
+                      Každý balíček můžete přidávat do Vašich kolekcí. To můžete udělat kliknutím na tlačítko "Add to collection". Otevře se dialogové okno. Zde
+                      pak můžete buď vytvořit novou kolekci, nebo přidat balíček do existující kolekce kliknutím na tlačítko vedle názvu kolekce. Šedé tlačítko
+                      značí, že se balíček v kolekci již nachází. Více informací o přidávání balíčků a vytváření kolekcí najdete
+                      <a href="vytvareni.html"> zde</a>.
+                    </p>
+                  </div>
+                </section>
+                <!--//doc-section-->
+
+                <section id="section-kam-dal" class="doc-section">
+                  <h2 class="section-title">Kam dál?</h2>
+                  <div class="section-block">
+                    <div class="row">
+                      <div class="col-md-6 col-12">
+                        <h6>V dokumentaci doporučujeme pokračovat zde:</h6>
+                        <ul class="list list-unstyled">
+                          <li>
+                            <a href="#asdsa" class="btn btn-primary"><i class="fas fa-hammer"></i> Vytváření a úprava balíčků a kolekcí </a>
+                          </li>
+                          <li>
+                            <a href="#dasdsa" class="btn btn-blue"><i class="fas fa-cogs"></i> Profil & nastavení</a>
+                          </li>
+                          <li>
+                            <a href="#dsas" class="btn btn-green"><i class="fas fa-box"></i> Kolekce</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!--//section-block-->
+                </section>
+                <!--//doc-section-->
+              </div>
+              <!--//content-inner-->
+            </div>
+
+            <!--//doc-content-->
+            <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+              <div id="doc-nav" class="doc-nav">
+                <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                  <a class="nav-link scrollto" href="#section-co-jsou-balicky">Co to jsou balíčky</a>
+                  <a class="nav-link scrollto" href="#section-prehled-balicku">Přehled balíčků</a>
+                  <a class="nav-link scrollto" href="#section-stranka-balicku">Stránka balíčku</a>
+                  <nav class="doc-sub-menu nav flex-column">
+                    <a class="nav-link scrollto" href="#section-block-uceni-balicku">Učení se balíčku</a>
+                    <a class="nav-link scrollto" href="#section-block-seznam-karet-balicku">Seznam karet balíčku</a>
+                    <a class="nav-link scrollto" href="#section-block-informace-o-balicku">Informace o balíčku</a>
+                    <a class="nav-link scrollto" href="#section-block-pripinani-balicku">Připínání balíčku</a>
+                    <a class="nav-link scrollto" href="#section-block-sdileni-balicku">Sdílení balíčku</a>
+                    <a class="nav-link scrollto" href="#section-block-upravovani-balicku">Upravování balíčku</a>
+                    <a class="nav-link scrollto" href="#section-block-pridavani-balicku">Odstranění kolekce</a>
+                  </nav>
+                  <!--//nav-->
+                  <a class="nav-link scrollto" href="#section-kam-dal">Kam dál?</a>
+                </nav>
+                <!--//doc-menu-->
+              </div>
+            </div>
+            <!--//doc-sidebar-->
+          </div>
+          <!--//doc-body-->
+        </div>
+        <!--//container-->
+      </div>
+      <!--//doc-wrapper-->
+    </div>
+    <!--//page-wrapper-->
+
+    <footer id="footer" class="footer text-center">
+      <div class="container">
+        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+        <small class="copyright"
+          >Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small
+        >
+      </div>
+      <!--//container-->
+    </footer>
+    <!--//footer-->
+
+    <!-- Main Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
